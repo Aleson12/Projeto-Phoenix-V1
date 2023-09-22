@@ -1,0 +1,185 @@
+/* RESET CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imgFlex {
+  margin: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* IMPORTAÇÃO DE FONTES */
+
+@font-face {
+  font-family: Poppins;
+  src: url(fonte/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url(fonte/Jost/Jost-VariableFont_wght.ttf);
+}
+
+.imgFlex > .btn-danger {
+  font-family: Poppins, Sans-serif;
+  display: flex;
+  font-size: 13.5px;
+  background-color: #9e1114;
+  width: 130px;
+  height: 49px;
+  border-radius: 5px;
+  box-shadow: 5px 0px 10px 0px #000000;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+}
+
+.imgFlex > .btn-danger:hover {
+  background-color: #5f3030;
+}
+
+.menuFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #9e1114;
+  height: 40px;
+}
+
+.submenu > ul > li {
+  visibility: hidden;
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.menuFlex > ul > li > a {
+  color: #dbdbdb;
+  text-decoration: none;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.menuFlex > ul {
+  gap: 50px;
+  align-items: center;
+  padding-left: 0px;
+  height: 40px;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menuFlex > ul > li > a:hover {
+  color: #d36162;
+  text-decoration: overline;
+}
+
+/* MEDIA-QUERY, PARA RESPONSIVIDADE  */
+
+@media screen and (max-width: 650px) {
+  .menuFlex {
+    height: 111px;
+  }
+  .menuFlex > ul {
+    gap: 16px;
+    align-items: center;
+    padding-left: 0px;
+    height: 98px;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.imgBackground {
+  background-image: url(img/conceito-de-negocio-com-equipe-de-perto-scaled.jpg);
+  height: 497px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imgBackground > .container > h2 {
+  left: 59px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 2px #000000;
+  position: relative;
+  top: 57px;
+  text-transform: uppercase;
+  color: #a02828;
+  display: inline;
+}
+
+.imgBackground > .container > p {
+  text-shadow: 3px -3px 0px #000000;
+  color: #ffffff;
+  position: absolute;
+  font-weight: 800;
+  text-align: center;
+  left: 205px;
+  right: 126px;
+  top: 289px;
+  font-size: 65px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.custom {
+  color: #993300;
+}
+
+.flexSocialNet{
+  display: flex;
+  justify-content: center;
+}
+
+.flexSocialNet > a > img{
+  height: 35px;
+  margin: 10px;
+}
+
+.flexQuemSomos {
+  display: flex;
+  gap: 83px;
+  flex-wrap: nowrap;
+  justify-content: center;
+} 
+
+.flexQuemSomos > div > h3 {
+  margin: 27px;
+  text-align: center;
+  color: #63080A;
+  font-family: "Jost", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.flexQuemSomos > div > p{
+  color: #646464;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+} 
+
+.imgs > img{
+  margin-top: 23px;
+  height: 240px;
+  border-radius: 5px;
+}
