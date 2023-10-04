@@ -157,7 +157,7 @@ ul {
   justify-content: center;
 }
 
-.flexQuemSomos > div > h3 {
+.redLetters{
   margin: 27px;
   text-align: center;
   color: #63080a;
@@ -292,7 +292,7 @@ ul {
 }
 
 .background {
-  height: 364vh;
+  height: 360vh;
   width: auto;
   background-color: #f7f7f7;
 }
@@ -301,18 +301,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.background > .flexElements > h2 {
-  padding: 45px 45px 23px 45px;
-  text-align: center;
-  color: #63080a;
-  font-family: "Jost", Sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+} 
 
 .background > .flexElements > p {
   color: #646464;
@@ -349,17 +338,6 @@ ul {
   background-size: contain;
   background-position: center center;
   background-repeat: repeat;
-}
-
-.areaDeAtuacao > h2 {
-  padding: 45px 45px 23px 45px;
-  text-align: center;
-  color: #63080a;
-  font-family: "Jost", Sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .flexAtuacao {
