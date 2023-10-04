@@ -34,3 +34,4 @@ function percorrerImgs() {
 }
 
 window.onload = setInterval(percorrerImgs, 2000);
+
