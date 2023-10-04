@@ -292,7 +292,7 @@ ul {
 }
 
 .background {
-  height: 323vh;
+  height: 364vh;
   width: auto;
   background-color: #f7f7f7;
 }
@@ -364,17 +364,40 @@ ul {
 
 .flexAtuacao {
   display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
 }
 
 .flexAtuacao > figure {
-  border-radius: 4px;
+  height: 505px;
+  width: 452px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 7px 10px 0px #888888;
 }
 
-.flexAtuacao > figure > img{
+.flexAtuacao > figure > img {
   height: 267px;
-  width: 450px;
-  border-radius: 4px;
+  width: 452px;
+  border-radius: 5px;
 }
 
+.tituloCard {
+  margin: 10px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
 
+.legendTitCard {
+  margin: 10px;
+  color: #616161;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  word-spacing: 3px;
+}
 
