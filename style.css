@@ -24,6 +24,11 @@
   src: url(fonte/Jost/Jost-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Oswald";
+  src: url(fonte/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
 .imgFlex > .btn-danger {
   font-family: Poppins, Sans-serif;
   display: flex;
@@ -444,3 +449,78 @@ ul {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+#accordion{
+  margin: 60px 0px 60px 0px;
+}
+
+/* efeito parallax:  */
+
+.imgParallax{
+  min-height: 500px;
+  background-image: url(img/parallax/14803715_Vector_2646-scaled.jpg);
+  background-attachment: fixed; /* fixar a imagem na tela; efeito parallax  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formFlex{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+} 
+
+.formFlex > div > h2{
+  margin-bottom: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+} 
+
+.formFlex > div > p{
+  margin-bottom: 43px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color:#7a7a7a; 
+} 
+
+input[placeholder]{
+  padding-left: 15px;
+}
+
+textarea[placeholder]{
+  padding: 10px 0px 0px 15px;
+}
+
+input, textarea{
+  border-style: none;
+  border-radius: 4px;
+  height: 49px;
+  width: 403px;
+} 
+
+button{
+  width: 98px;
+}
+
+.flexBtn{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family:"Oswald",sans-serif;
+}  
+
+.flexBtn > button{
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+
