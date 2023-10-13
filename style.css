@@ -524,3 +524,32 @@ button{
   line-height: 18px;
 }
 
+.flexPabxNuvem{
+  display: flex;
+  gap: 52px;
+} 
+
+.pabxLetters{
+  font-family: "Jost", sans-serif;
+  text-transform:uppercase;
+  color:#54595f;
+  font-size:17px;
+  line-height: 23px;
+  font-weight: 600;
+  margin-bottom: 0px;
+} 
+
+.styleParagPabx{
+  font-family: "Poppins", sans-serif;
+  font-weight:400;
+  font-size: 15px;
+  line-height: 20px;
+  color:#646464;
+} 
+
+.flexPabx > div{
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+} 
