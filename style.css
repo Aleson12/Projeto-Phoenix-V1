@@ -793,6 +793,12 @@ button {
   justify-content: space-evenly;
 }
 
+.flexLegndMap0 > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .flexLegndMap0 > div > li {
   font-family: "Jost", Sans-serif;
   color: white;
